@@ -20,11 +20,14 @@
     </script>
     </head>
     <body>
+        <form id="form1" runat="server">
         <header>
             <div class="content-wrapper">
                 <div class="float-left">
-                    <p class="site-title">
-                        <%: Html.ActionLink(".", "Index", "Home") %>
+                    <p class="site-title">                         
+                        
+                        <asp:HyperLink ID="logo" NavigateUrl="/" ImageUrl="~/Images/xperiencetowing-logo.png" runat="server" ></asp:HyperLink>
+                        
                     </p>
                 </div>
                 <div class="float-right">
@@ -57,5 +60,6 @@
 
         <%: Scripts.Render("~/bundles/jquery") %>
         <asp:ContentPlaceHolder ID="ScriptsSection" runat="server" />
+        </form>
     </body>
 </html>
