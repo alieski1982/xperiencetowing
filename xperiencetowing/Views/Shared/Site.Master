@@ -24,7 +24,7 @@
             <div class="content-wrapper">
                 <div class="float-left">
                     <p class="site-title">
-                        <%: Html.ActionLink("Logo", "Index", "Home") %>
+                        <%: Html.ActionLink(".", "Index", "Home") %>
                     </p>
                 </div>
                 <div class="float-right">

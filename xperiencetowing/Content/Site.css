@@ -130,12 +130,13 @@ footer {
 ----------------------------------------------------------*/
 .site-title {
     background: url(../../Images/xperiencetowing-logo.png) no-repeat top left;
-    width: 200px;
-    height: 56px;
+    width: 234px;
+    height: 127px;
     color: #c8c8c8;
     font-family: Rockwell, Consolas, "Courier New", Courier, monospace;
     font-size: 2.3em;
-    margin: 0;    
+    margin: 0;   
+    border: 5px red; 
 }
 
 .site-title a, .site-title a:hover, .site-title a:active {
