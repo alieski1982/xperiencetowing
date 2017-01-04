@@ -28,5 +28,11 @@ namespace xperiencetowing.Controllers
 
             return View();
         }
+        public ActionResult OurTrucks()
+        {
+            ViewBag.Message = "OurTrucks";
+
+            return View();
+        }
     }
 }
